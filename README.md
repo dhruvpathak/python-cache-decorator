@@ -1,9 +1,11 @@
-# Python cache decorator
+# Python cache decorator / django cache decorator
 
 ## A python memcached decorator (or redis cache ) 
 
 A decorator to be used with any caching backend e.g. memcached,redis etc to provide
 flexible caching for multiple use cases without altering the original methods.
+Can be used in plain python program using cache backends like pylibmc, python-memcached,
+or frameworks like Django.
 
 ###Examples:
 
